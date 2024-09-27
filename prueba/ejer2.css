@@ -1,0 +1,94 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.menu-nav{
+    background-color: aqua;
+    height: 50px;
+    margin: 10px
+}
+.text-mosaic{
+    display: flex;
+    flex-flow: row wrap;
+    width: 100vw;
+}
+.text-content{
+    border-radius: 9px;
+    margin: 2px 0px;
+    background-color: #fff;
+    width: 50vw;
+    color: #fff;
+}
+.mosaic{
+    width: 50%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    gap: 10px;
+    
+}
+.mosaic p{
+    
+    background-color:red;
+    min-width: 100%;
+    height: 120px;
+    margin: 10px;
+}
+.cards{
+    display: flex;
+    min-width: 100vw;
+}
+.card{
+    min-width: 100px;
+    height: 100px;
+    background-color: blue;
+    flex-grow: 1;
+    margin: 10px 10px;
+    border-radius: 9px;
+    color: #fff;
+}
+.img{
+    width: 200px;
+    height: 100px;
+}
+
+
+.center{
+    margin: 10px;
+    background-color: aqua;
+    height: 300px;
+    border-radius: 9px;
+    display: flex;
+    background-image: url(https://phantom-marca.unidadeditorial.es/22a608297a4fb1fb81e93f61103c8973/resize/828/f/jpg/assets/multimedia/imagenes/2022/05/10/16521920672109.jpg);
+}
+
+div{
+    border: 1px solid #aaa;
+    text-align: center;
+    transition: 5s;
+}
+
+.transition2:hover{
+    font-size: 24px;
+
+}
+
+@keyframes backgroundChage{
+    0%{ background-color: aqua;}
+    50%{background-color: rgb(0, 255, 85);}
+    100%{ background-color: blueviolet;}
+    
+}
+.animacion1{
+    animation:backgroundChage 3s infinite ;
+}
+@keyframes fontSizeChange{
+    0%{font-size: 16px;}
+    50%{font-size: 24px}
+    100%{font-size: 16px;}
+
+}
